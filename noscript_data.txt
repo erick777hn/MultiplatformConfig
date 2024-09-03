@@ -1,0 +1,102 @@
+{
+  "policy": {
+    "DEFAULT": {
+      "capabilities": [
+        "other",
+        "script",
+        "object",
+        "media",
+        "frame",
+        "webgl"
+      ],
+      "temp": false
+    },
+    "TRUSTED": {
+      "capabilities": [
+        "script",
+        "object",
+        "media",
+        "frame",
+        "font",
+        "webgl",
+        "fetch",
+        "noscript",
+        "other"
+      ],
+      "temp": false
+    },
+    "UNTRUSTED": {
+      "capabilities": [
+        "frame",
+        "media"
+      ],
+      "temp": false
+    },
+    "sites": {
+      "trusted": [
+        "§:addons.mozilla.org",
+        "§:afx.ms",
+        "§:ajax.aspnetcdn.com",
+        "§:ajax.googleapis.com",
+        "§:bootstrapcdn.com",
+        "§:code.jquery.com",
+        "§:firstdata.com",
+        "§:firstdata.lv",
+        "§:gfx.ms",
+        "§:google.com",
+        "§:googlevideo.com",
+        "§:gstatic.com",
+        "§:hotmail.com",
+        "§:live.com",
+        "§:live.net",
+        "§:maps.googleapis.com",
+        "§:mozilla.net",
+        "§:netflix.com",
+        "§:nflxext.com",
+        "§:nflximg.com",
+        "§:nflxvideo.net",
+        "§:noscript.net",
+        "§:outlook.com",
+        "§:passport.com",
+        "§:passport.net",
+        "§:passportimages.com",
+        "§:paypal.com",
+        "§:paypalobjects.com",
+        "§:securecode.com",
+        "§:securesuite.net",
+        "§:sfx.ms",
+        "§:tinymce.cachefly.net",
+        "§:wlxrs.com",
+        "§:yahoo.com",
+        "§:yahooapis.com",
+        "§:yimg.com",
+        "§:youtube.com",
+        "§:ytimg.com"
+      ],
+      "untrusted": [],
+      "custom": {}
+    },
+    "enforced": true,
+    "autoAllowTop": false
+  },
+  "local": {
+    "debug": false,
+    "showCtxMenuItem": true,
+    "showCountBadge": false,
+    "showFullAddresses": true,
+    "amnesticUpdates": true,
+    "storage": "local",
+    "uuid": "efed8949-9068-490d-aafa-fb8d18d8c123",
+    "highContrast": true
+  },
+  "sync": {
+    "global": false,
+    "xss": true,
+    "TabGuardMode": "global",
+    "TabGuardPrompt": "always",
+    "cascadeRestrictions": true,
+    "overrideTorBrowserPolicy": true,
+    "storage": "sync"
+  },
+  "xssUserChoices": {}
+}
